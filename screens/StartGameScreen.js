@@ -20,6 +20,16 @@ const styles=StyleSheet.create({
         marginHorizontal:24,
         padding:16,
         backgroundColor:'#72063c',
-        borderRadius:8,  
+        borderRadius:8,
+        elevation:8,  //Android shadow styling
+
+        //iOS shadow styling
+        shadowColor:'black',
+        shadowOffset:{
+            width:0,
+            height:2
+        },
+        shadowRadius:6,
+        shadowOpacity:0.25
     }
 })
