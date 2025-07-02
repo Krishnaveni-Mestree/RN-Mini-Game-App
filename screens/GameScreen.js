@@ -1,11 +1,17 @@
-import { Text,View } from "react-native";
+import { StyleSheet, Text,View } from "react-native";
 
 function GameScreen(){
     return (
         <View>
-            <Text>Game Screen</Text>
+            <Text>Guess number</Text>
         </View>
     )
 }
 
 export default GameScreen;
+
+const styles=StyleSheet.create({
+    screen:{
+        flex:1,
+    }
+})
